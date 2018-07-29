@@ -1,0 +1,23 @@
+<mvc:View controllerName="com.xact.apps.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" displayBlock="true">
+	<App id="main">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Carousel loop="true">
+						
+			<Image src="https://static2.timeout.co.il/media/2016/09/sizes/GettyImages-178267881.jpg_h_wo_680_382.jpg" alt="Example1"/>
+
+			<Image src="https://images.outbrainimg.com/transform/v3/eyJpdSI6IjViZGViYjJmOTBmMjU0YTY3YzQxNDY1ZGIzOTRiNTg0MmIwNzY2N2NlZjQ2MWVmNDhkNTE2MjRjNjY3MjMwMGUiLCJ3IjozMjAsImgiOjE2MCwiZCI6MS41LCJjcyI6MCwiZiI6MH0.webp" alt="Example2"/>
+
+			<Image src="http://www.lagaatbehodu.co.il/files/article/1526453457b57RJ.jpg" alt="Example3"/>
+
+		
+					</Carousel>
+				<Button text="{dafna>/target/name}" id="dddddd"
+						press="buttonPress" >
+				</Button>	
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
